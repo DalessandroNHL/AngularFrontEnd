@@ -1,0 +1,13 @@
+.row{
+    background-image: url(../../../assets/images/backgrounds/background3.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 25px;
+    color: #ffffff;
+    border-style: solid;
+    border-color: #3b3b3b;
+}
+
+
+

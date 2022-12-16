@@ -1,0 +1,15 @@
+.perfil{
+    text-align: center;
+    height: 600px;
+    padding: 50px;
+    background-image: url(../../../assets/images/backgrounds/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: aliceblue;
+}
+
+.user{
+    margin-top: 20%;
+    height: 200px;
+    width: 200px;
+}
