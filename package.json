@@ -1,4 +1,9 @@
 {
+  "/api": {
+    "target": "http://localhost:3000",
+    "secure": false
+  },
+  
   "name": "proyecto-final",
   "version": "0.0.0",
   "scripts": {
@@ -19,6 +24,7 @@
     "@angular/platform-browser-dynamic": "^14.2.0",
     "@angular/router": "^14.2.0",
     "bootstrap": "^5.2.3",
+    "cors": "^2.8.5",
     "ng-circle-progress": "^1.6.0",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",

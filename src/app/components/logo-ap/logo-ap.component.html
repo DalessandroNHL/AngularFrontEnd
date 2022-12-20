@@ -9,7 +9,8 @@
                 <i class="bi bi-instagram" id="instagram"></i>
                 <i class="bi bi-linkedin" id="linkedin"></i>
                 <i class="bi bi-github" id="github"></i>
-                <button type="button" class="btn btn-outline-light" (click)="login()">Login</button>
+                <button type="button" class="btn btn-outline-light" (click)="login()" *ngIf="!isLogged">Login</button>
+                <button type="button" class="btn btn-outline-light" (click)="onLogOut()" *ngIf="isLogged">Cerrar sesion</button>
             </div>
         </div>
     </div>
